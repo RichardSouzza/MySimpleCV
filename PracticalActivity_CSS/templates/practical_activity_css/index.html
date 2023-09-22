@@ -1,0 +1,29 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <link href="styles/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  <header>
+    <h1>Atividade Prática - CSS</h1>
+  </header>
+  <main>
+    <h2>Exemplos</h2>
+    <dl>
+      {% for example in examples %}
+        {% if example.type == "topic" %}
+          <dt><a href="{{ example.route }}">{{ example.number ~ ") " ~ example.title }}</a></dt>
+        {% elif example.type == "subtopic" %}
+          <dd><a href="{{ example.route }}">{{ example.number ~ ") " ~ example.title }}</a></dd>
+        {% endif %}
+      {% endfor %}
+    </dl>
+  </main>
+  <footer>
+    <p>
+      <span class="font-semibold">Nota:</span>
+      Muitos dos exemplos foram retirados de
+      <a class="text-green" href="https://www.w3schools.com/">W3Schools</a>.</p>
+  </footer>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "home/base.html" %}
+{% from "home/card.html" import card %}
+
+{% block content %}
+  <header class="flex items-center h-14 px-6 bg-blue-700">
+    <h1 class="text-2xl text-white">Unit Challenges</h1>
+  </header>
+  <main>
+    <div class="flex flex-wrap justify-center p-12 gap-8">
+      {% for project in projects %}
+        {{ card(project.name, project.image, project.route) }}
+      {% endfor %}
+    </div>
+  </main>
+{% endblock %}

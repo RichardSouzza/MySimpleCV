@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6vw;
+  gap: 1vh;
+}
+
+header {
+  padding-top: 4vh;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+}
+
+h2 {
+  margin-bottom: 1vh;
+  font-weight: 500;
+}
+
+dl {
+  line-height: 150%;
+}
+
+dd {
+  margin-left: 4vw;
+}
+
+a {
+  color: #03b;
+  text-decoration: none;
+}
+
+footer {
+  margin: 3vh -6vw 0;
+  padding: 6vh 6vw;
+  background-color: #f1f5f9;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-green {
+  color: #04AA6D;
+}

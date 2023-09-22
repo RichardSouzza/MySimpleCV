@@ -1,0 +1,20 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    .div {
+      border: 1px solid black;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 80px;
+      background-color: lightblue;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Usando propriedades individuais de margem</h2>
+
+  <div class="div">Este elemento div tem uma margem superior de 100px, uma margem direita de 150px, uma margem inferior de 100px e uma margem esquerda de 80px.</div>
+{% endblock %}

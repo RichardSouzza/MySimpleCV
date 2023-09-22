@@ -1,0 +1,17 @@
+{% extends "html_form/base.html" %}
+
+{% block content %}
+  <div class="flex items-center justify-center w-screen h-screen">
+    <div class="w-72 px-8 py-6 bg-sky-50 rounded-2xl">
+      <form class="flex flex-col" method="post">
+        <label for="username">Name</label>
+        <input class="h-8 border-b-2 border-b-cyan-200 p-2 rounded focus:outline-0" type="text" name="username">
+        <label for="email">Email</label>
+        <input class="h-8 border-b-2 border-b-cyan-200 p-2 rounded focus:outline-0" type="email" name="email">
+        <label for="password">Password</label>
+        <input class="h-8 border-b-2 border-b-cyan-200 p-2 rounded focus:outline-0" type="password" name="password">
+        <input class="h-8 mt-4 bg-sky-100" type="submit" value="Register">
+      </form>
+    </div>
+  </div>
+{% endblock %}

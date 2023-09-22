@@ -1,0 +1,34 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Propriedade border-style</h2>
+  <p>Esta propriedade especifica que tipo de borda exibir:</p>
+
+  <p class="dotted">Uma borda pontilhada.</p>
+  <p class="dashed">Uma borda tracejada.</p>
+  <p class="solid">Uma borda sólida.</p>
+  <p class="double">Uma borda dupla.</p>
+  <p class="groove">Uma borda entalhada.</p>
+  <p class="ridge">Uma borda elevada.</p>
+  <p class="inset">Uma borda interna.</p>
+  <p class="outset">Uma borda externa.</p>
+  <p class="none">Sem borda.</p>
+  <p class="hidden">Uma borda oculta.</p>
+  <p class="mixed">Uma borda mista.</p>
+{% endblock %}

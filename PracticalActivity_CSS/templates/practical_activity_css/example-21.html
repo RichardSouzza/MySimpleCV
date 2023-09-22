@@ -1,0 +1,40 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    .div {
+      border: 1px solid gray;
+      padding: 8px;
+    }
+    
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #4CAF50;
+    }
+    
+    p {
+      text-indent: 50px;
+      text-align: justify;
+      letter-spacing: 3px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #008CBA;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="div">
+    <h1>formatação de texto</h1>
+    <p>
+      Este texto é estilizado com algumas das propriedades de formatação de texto.
+      O título usa as propriedades text-align, text-transform e color.
+      O parágrafo é recuado, alinhado e o espaço entre os caracteres é especificado.
+      O sublinhado é removido deste link colorido
+      <a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_text">"Experimente você mesmo"</a>.
+    </p>
+  </div>
+{% endblock %}

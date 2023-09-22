@@ -1,0 +1,34 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    p.one {
+      border-style: solid;
+      border-color: red;
+    }
+    
+    p.two {
+      border-style: solid;
+      border-color: green;
+    } 
+    
+    p.three {
+      border-style: solid;
+      border-color: red green blue yellow;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Propriedade border-color</h2>
+  <p>Essa propriedade especifica a cor das quatro bordas:</p>
+
+  <p class="one">Uma borda sólida vermelha</p>
+  <p class="two">Uma borda sólida verde</p>
+  <p class="three">Uma borda sólida multicolorida</p>
+
+  <p><b>Nota:</b>
+    A propriedade "border-color" não funciona se for usada sozinha.
+    Use a propriedade "border-style" para definir as bordas primeiro.
+  </p>
+{% endblock %}

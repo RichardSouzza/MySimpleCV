@@ -1,0 +1,25 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    div.ex1 {
+      width: 300px;
+      background-color: yellow;
+    }
+    
+    div.ex2 {
+      width: 300px;
+      padding: 25px;
+      background-color: lightblue;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Padding e Width</h2>
+
+  <div class="ex1">Este div tem 300px de largura.</div>
+  <br>
+
+  <div class="ex2">A largura dessa div é de 350px, embora seja definida como 300px no CSS.</div>
+{% endblock %}

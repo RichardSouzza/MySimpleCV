@@ -1,0 +1,15 @@
+{% extends "sportshop/base.html" %}
+{% from "sportshop/card.html" import card %}
+
+{% block content %}
+  <section>
+    <div class="flex justify-center my-2 py-2 bg-slate-200 rounded-full">
+      <h2 class="text-2xl">Shirts</h2>
+    </div>
+    <div class="flex flex-wrap justify-center px-12 py-6 gap-8">
+      {% for product in products %}
+        {{ card(product.name, product.image, product.bg_color) }}
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

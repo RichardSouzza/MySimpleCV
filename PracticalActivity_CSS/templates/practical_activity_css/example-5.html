@@ -1,0 +1,20 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    p.center {
+      text-align: center;
+      color: red;
+    }
+    
+    p.large {
+      font-size: 300%;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h1 class="center">Este cabeçalho não será afetado</h1>
+  <p class="center">Este parágrafo será vermelho e alinhado ao centro.</p>
+  <p class="center large">Este parágrafo será vermelho, alinhado no centro e com uma fonte maior.</p> 
+{% endblock %}

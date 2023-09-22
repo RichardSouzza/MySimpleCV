@@ -1,0 +1,26 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    div.ex1 {
+      width: 300px;
+      background-color: yellow;
+    }
+    
+    div.ex2 {
+      width: 300px;
+      padding: 25px;
+      box-sizing: border-box;
+      background-color: lightblue;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Padding e Width - com box-sizing</h2>
+
+  <div class="ex1">Este div tem 300px de largura.</div>
+  <br>
+
+  <div class="ex2">A largura deste div permanece em 300px, apesar dos 50px de preenchimento total esquerdo e direito, por causa da propriedade box-sizing: border-box.</div>
+{% endblock %}

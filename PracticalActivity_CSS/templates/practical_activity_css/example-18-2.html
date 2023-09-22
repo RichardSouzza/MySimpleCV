@@ -1,0 +1,20 @@
+{% extends "practical_activity_css/base.html" %}
+
+{% block style %}
+  <style>
+    .div {
+      width: 300px;
+      margin: auto;
+      border: 1px solid red;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <h2>Uso da margem: auto</h2>
+  <p>Você pode definir a propriedade margin como auto para centralizar horizontalmente o elemento dentro de seu contêiner. O elemento ocupará a largura especificada e o espaço restante será dividido igualmente entre as margens esquerda e direita:</p>
+
+  <div class="div">
+    Este div será centralizado horizontalmente porque tem margem: auto;
+  </div>
+{% endblock %}
