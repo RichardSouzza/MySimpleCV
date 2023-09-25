@@ -19,7 +19,7 @@ def index():
     projects = [
         Project("HTML Form", "HTML-Form.png", "/HTML-Form"), 
         Project("MySimpleCV", "MySimpleCV.png", "/MySimpleCV"),
-        Project("Practical Activity - CSS", "MySimpleCV.png", "/PracticalActivity-CSS"),
+        Project("Practical Activity - CSS", "PracticalActivity-CSS.png", "/PracticalActivity-CSS"),
         Project("SportShop", "SportShop.png", "/SportShop"),
     ]
     return render_template("home/index.html", title="Unit Challenges", projects=projects)
