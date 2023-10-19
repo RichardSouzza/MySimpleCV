@@ -17,7 +17,8 @@ class Project:
 @home_bp.route("/")
 def index():
     projects = [
-        Project("HTML Form", "HTML-Form.png", "/HTML-Form"), 
+        Project("Component Store", "ComponentStore.png", "/ComponentStore"),
+        Project("HTML Form", "HTML-Form.png", "/HTML-Form"),
         Project("MySimpleCV", "MySimpleCV.png", "/MySimpleCV"),
         Project("Practical Activity - CSS", "PracticalActivity-CSS.png", "/PracticalActivity-CSS"),
         Project("SportShop", "SportShop.png", "/SportShop"),

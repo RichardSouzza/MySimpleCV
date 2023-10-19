@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Loja de Componentes</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <header class="px-5 py-4 bg-primary">
+    <h1 class="text-white">Loja de Componentes</h1>
+  </header>
+
+  <main class="container-fluid my-5 px-5 py-2">
+    <div class="row">
+
+      <div class="col mx-5">
+        <div class="card mb-4 p-4">
+          <img src="images/navigation-bar.svg" class="card-img-top" alt="Barra de navegação">
+          <div class="card-body">
+            <h5 class="card-title">Barra de navegação</h5>
+            <p class="card-text">
+              As barras de navegação oferecem uma maneira conveniente e
+              persistente de alternar entre destinos principais em um
+              aplicativo. 3-5 destinos é o intervalo recomendado.
+            </p>
+            <p class="card-text">$ 4.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 p-4">
+          <img src="images/fab.svg" class="card-img-top" alt="Botão de ação flutuante (FAB)">
+          <div class="card-body">
+            <h5 class="card-title">Botão de ação flutuante (FAB)</h5>
+            <p class="card-text">
+              Os FABs ajudam as pessoas a realizar ações primárias.
+              Eles são usados para representar a ação mais importante em uma tela.
+            </p>
+            <p class="card-text">$ 2.49</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>        
+
+        <div class="card mb-4 p-4">
+          <img src="images/segmented-button.svg" class="card-img-top" alt="Botão segmentado">
+          <div class="card-body">
+            <h5 class="card-title">Botão segmentado</h5>
+            <p class="card-text">
+              Botões segmentados ajudam as pessoas a selecionar
+              opções, alternar visualizações e classificar elementos.
+            </p>
+            <p class="card-text">$ 2.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card p-4">
+          <img src="images/chip.svg" class="card-img-top" alt="Etiqueta">
+          <div class="card-body">
+            <h5 class="card-title">Etiqueta</h5>
+            <p class="card-text">
+              As etiquetas ajudam as pessoas a inserir informações,
+              fazer seleções, filtrar conteúdo ou desencadear ações.
+            </p>
+            <p class="card-text">$ 0.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>        
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 p-4">
+          <img src="images/search-bar.svg" class="card-img-top" alt="Barra de pesquisa">
+          <div class="card-body">
+            <h5 class="card-title">Barra de pesquisa</h5>
+            <p class="card-text">
+              A barra de pesquisa permite que os usuários insiram uma palavra-chave ou frase e
+              obtenham informações relevantes. É uma alternativa a outras formas de navegação.
+            </p>
+            <p class="card-text">$ 3.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 p-4">
+          <img src="images/icon-button.svg" class="card-img-top" alt="Botão de ícone">
+          <div class="card-body">
+            <h5 class="card-title">Botão de ícone</h5>
+            <p class="card-text">
+              Os botões de ícone ajudam as pessoas a realizar
+              ações complementares com um único toque.
+            </p>
+            <p class="card-text">$ 3.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 p-4">
+          <img src="images/dialog.svg" class="card-img-top" alt="Caixa de diálogo">
+          <div class="card-body">
+            <h5 class="card-title">Caixa de diálogo</h5>
+            <p class="card-text">
+              As caixas de diálogo fornecem prompts importantes em um fluxo de usuário.
+              Eles podem exigir uma ação, comunicar informações para a tomada de
+              decisões ou ajudar os usuários a realizar uma tarefa específica.
+            </p>
+            <p class="card-text">$ 3.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        
+        <div class="card p-4">
+          <img src="images/circular-progress-indicator.svg" class="card-img-top" alt="Indicador de Progresso">
+          <div class="card-body">
+            <h5 class="card-title">Indicador de Progresso</h5>
+            <p class="card-text">
+              Os indicadores de progresso informam os usuários sobre o status dos processos em andamento,
+              como carregar um aplicativo, enviar um formulário ou salvar atualizações.
+              Eles comunicam o estado de um aplicativo e indicam as ações disponíveis,
+              como se os usuários podem sair da tela atual.
+            </p>
+            <p class="card-text">$ 3.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col mx-5">
+        <div class="card mb-4 p-4">
+          <img src="images/button.svg" class="card-img-top" alt="Botão">
+          <div class="card-body">
+            <div class="my-2 bg-danger rounded-pill text-center">
+              <p class="card-text text-white">Promoção 20% OFF</p>
+            </div>
+            <h5 class="card-title">Botão</h5>
+            <p class="card-text">
+              Os botões ajudam as pessoas a realizar ações, como enviar um e-mail,
+              compartilhar um documento ou curtir um comentário.
+            </p>
+            <p class="card-text">De <span class="text-decoration-line-through">$ 2.49</span> por $ 1.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 p-4">
+          <img src="images/radio-buttons.svg" class="card-img-top" alt="Botões de rádio">
+          <div class="card-body">
+            <h5 class="card-title">Botões de rádio</h5>
+            <p class="card-text">
+              Os botões de opção permitem que os usuários selecionem uma opção de um conjunto.
+              Eles são um controle de seleção que geralmente aparece quando os usuários são
+              solicitados a tomar decisões ou selecionar uma opção entre as opções.
+            </p>
+            <p class="card-text">$ 0.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 p-4">
+          <img src="images/card.svg" class="card-img-top" alt="Cartão">
+          <div class="card-body">
+            <h5 class="card-title">Cartão</h5>
+            <p class="card-text">
+              Os cartões são recipientes versáteis, contendo desde imagens até títulos,
+              suportando texto, botões, listas e outros componentes.
+            </p>
+            <p class="card-text">$ 2.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card p-4">
+          <img src="images/date-picker.svg" class="card-img-top" alt="Selecionador de data">
+          <div class="card-body">
+            <h5 class="card-title">Seletores de data</h5>
+            <p class="card-text">
+              Os seletores de data permitem que os usuários
+              selecionem uma data ou um intervalo de datas.
+            </p>
+            <p class="card-text">$ 4.99</p>
+            <a onclick="buyComponent();" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
