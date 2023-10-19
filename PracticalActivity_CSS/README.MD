@@ -1,6 +1,6 @@
 # Practical Activity - CSS
 
-## Objective
+## Challenge
 
 In this activity, you must reproduce the examples in your development environment.
 The end result will be a .css file containing the stylizations you make throughout the activity.
