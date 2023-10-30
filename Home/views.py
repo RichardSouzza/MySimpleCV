@@ -18,6 +18,7 @@ class Project:
 def index():
     projects = [
         Project("Component Store", "ComponentStore.png", "/ComponentStore"),
+        Project("GuessGame", "GuessGame.png", "/GuessGame"),
         Project("HTML Form", "HTML-Form.png", "/HTML-Form"),
         Project("MySimpleCV", "MySimpleCV.png", "/MySimpleCV"),
         Project("Practical Activity - CSS", "PracticalActivity-CSS.png", "/PracticalActivity-CSS"),
